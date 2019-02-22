@@ -58,6 +58,7 @@ for(int i=0; i<n; i++)
 	cin >> A[i]; //user inputs array elements
 
 	heapSort(A,n); //recursively calling heapsort function made earlier to sort the array
+	cout << "Sorted Array Is: " << endl;
 	displayarray(A,n); //recursively calling display array function to display the final sorted array
 	
 return 0;
