@@ -49,9 +49,11 @@ int main() //Main function where we recursively call the functions made earlier 
 {
 
 int n; //Array size	
+cout << "Enter Array Size!" << endl;
 cin >> n; //User inputs array size
 int A[n]; //Initializing array with n elements that user inputs
 
+cout << "Enter Array Elements!" << endl;
 for(int i=0; i<n; i++)
 	cin >> A[i]; //user inputs array elements
 
